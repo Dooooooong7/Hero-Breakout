@@ -18,7 +18,7 @@ public class MoveOfPlayer : MonoBehaviour
     public float zspeed = 8;
     public float moveDistance = 3;
     public float smoothTime = 8f;
-    public float dTime = 0.01f;
+    public float deltaDistance = 0.01f;
     
     private void Awake()
     {
@@ -34,10 +34,10 @@ public class MoveOfPlayer : MonoBehaviour
     {
         //transform.Translate(moveDistance,0,0);
         //if(transform.position.x == 0 || transform.position.x == -3)
-        if (Math.Abs(transform.position.x) < dTime)
+        if (Math.Abs(transform.position.x) < deltaDistance)
             //targetPosition = transform.position + Vector3.right * moveDistance;
             targetPosition.x = moveDistance;
-        if (moveDistance + transform.position.x  < dTime)
+        if (moveDistance + transform.position.x  < deltaDistance)
             //targetPosition = transform.position + Vector3.right * moveDistance;
             targetPosition.x = 0;
 
@@ -48,10 +48,10 @@ public class MoveOfPlayer : MonoBehaviour
     {
         //transform.Translate(-moveDistance,0,0);
        // if(transform.position.x == 0 || transform.position.x == 3)
-       if(Math.Abs(transform.position.x) < dTime)
+       if(Math.Abs(transform.position.x) < deltaDistance)
         //targetPosition = transform.position + Vector3.left * moveDistance;
            targetPosition.x = -moveDistance;
-       if (moveDistance - transform.position.x  < dTime)
+       if (moveDistance - transform.position.x  < deltaDistance)
            targetPosition.x = 0;
     }
 

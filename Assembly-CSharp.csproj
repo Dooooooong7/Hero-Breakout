@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{631c20db-2704-70f5-6333-acadc4ae261d}</ProjectGuid>
+    <ProjectGuid>{75fd1b21-454f-c0d3-8cad-59e95a616fe9}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -317,10 +317,10 @@
      <HintPath>D:\unity\2021.3.32f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="ReportGeneratorMerged">
-     <HintPath>D:\unity\project\Hero Breakout\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>D:\unity\project\Hero Breakout\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>D:\unity\2021.3.32f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -704,181 +704,181 @@
      <HintPath>D:\unity\2021.3.32f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.InternalAPIEngineBridge.007">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.007.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.007.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.ARCore.Editor">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.XR.ARCore.Editor.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.XR.ARCore.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.ARKit.Editor">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.InputSystem">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SpatialTracking">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.dll</HintPath>
      </Reference>
      <Reference Include="Unity.EditorCoroutines.Editor">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.InteractionSubsystems">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.XR.InteractionSubsystems.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.XR.InteractionSubsystems.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.CoreUtils.Editor">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.ARSubsystems.Editor">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Editor">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.Management">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.ARCore">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.XR.ARCore.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.XR.ARCore.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.ARSubsystems">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.ARKit.FaceTracking">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.XR.ARKit.FaceTracking.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.XR.ARKit.FaceTracking.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.ARFoundation.Editor">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Tutorials.Core">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.Tutorials.Core.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.Tutorials.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.ARKit">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.XR.ARKit.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.XR.ARKit.dll</HintPath>
      </Reference>
      <Reference Include="Unity.InternalAPIEditorBridge.007">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.007.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.007.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.Management.Editor">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.ARKit.FaceTracking.Editor">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.XR.ARKit.FaceTracking.Editor.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.XR.ARKit.FaceTracking.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Subsystem.Registration">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Tutorials.Core.Editor">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.Tutorials.Core.Editor.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.Tutorials.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.XR.MagicLeap">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\UnityEngine.XR.MagicLeap.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\UnityEngine.XR.MagicLeap.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.XR.MagicLeap">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\UnityEditor.XR.MagicLeap.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\UnityEditor.XR.MagicLeap.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.InputSystem.ForUI">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR.Editor">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline.Editor">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.CoreUtils">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.SpatialTracking">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.ARFoundation">
-     <HintPath>D:\unity\project\Hero Breakout\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll</HintPath>
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
