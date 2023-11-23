@@ -42,11 +42,11 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\InputSystom\PlayerInpotControl.cs" />
-     <Compile Include="Assets\Scripes\MoveOfCamera.cs" />
-     <Compile Include="Assets\Scripes\PhysicsCheck.cs" />
+     <Compile Include="Assets\Scripts\MoveOfCamera.cs" />
+     <Compile Include="Assets\Scripts\PhysicsCheck.cs" />
      <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
      <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
-     <Compile Include="Assets\Scripes\MoveOfPlayer.cs" />
+     <Compile Include="Assets\Scripts\MoveOfPlayer.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\ExampleAssets" />
      <Folder Include="Assets\ExampleAssets\Shaders" />
@@ -63,7 +63,7 @@
      <Folder Include="Assets\ExampleAssets\Textures" />
      <Folder Include="Assets\ExampleAssets\Tutorial" />
      <None Include="Assets\ExampleAssets\Shaders\FeatheredPlaneShader.shader" />
-     <Folder Include="Assets\Scripes" />
+     <Folder Include="Assets\Scripts" />
      <Folder Include="Assets\XR\Settings" />
      <Folder Include="Assets\ExampleAssets\Scenes" />
      <Folder Include="Assets\Scenes" />

@@ -651,12 +651,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d2f09feab1b55a4aa8ee937ce7032d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputDirection: {x: 0, y: 0}
+  inputDirection: 0
   physicsCheck: {fileID: 0}
-  jumpForce: 5.5
+  jumpForce: 15
   zspeed: 8
-  xspeed: 250
   moveDistance: 3
+  smoothTime: 8
+  dTime: 0.5
 --- !u!135 &1103415370
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -702,8 +703,8 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
-  onGround: 0
   bottomOffset: {x: 0, y: -0.5, z: 0}
+  onGround: 0
 --- !u!1001 &1128061061
 PrefabInstance:
   m_ObjectHideFlags: 0
