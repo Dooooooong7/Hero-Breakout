@@ -807,7 +807,8 @@ MonoBehaviour:
     type: 3}
   bulletFloder: {fileID: 1607962144}
   firePoint: {fileID: 135786008}
-  fireInterval: 0.2
+  fireInterval: 0
+  initialFireInterval: 0.1
 --- !u!1001 &1128061061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1094,6 +1095,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8293072761913967712, guid: 46aa77bf73ec42944945eb0a1534e64e,
+        type: 3}
+      propertyPath: increaseBulletSpeed
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 60123346530212391, guid: 46aa77bf73ec42944945eb0a1534e64e,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1176,7 +1182,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1607962144}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bullets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1449,6 +1455,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8293072761913967712, guid: 46aa77bf73ec42944945eb0a1534e64e,
+        type: 3}
+      propertyPath: increaseBulletSpeed
+      value: -0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 60123346530212391, guid: 46aa77bf73ec42944945eb0a1534e64e,
         type: 3}
       propertyPath: m_Materials.Array.data[0]

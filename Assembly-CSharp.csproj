@@ -45,11 +45,11 @@
      <Compile Include="Assets\Scripts\MoveOfCamera.cs" />
      <Compile Include="Assets\Scripts\PhysicsCheck.cs" />
      <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
-     <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
-     <Compile Include="Assets\Scripts\MoveOfPlayer.cs" />
-     <Compile Include="Assets\Scripts\GetBuff.cs" />
      <Compile Include="Assets\Scripts\MoveOfBullet.cs" />
      <Compile Include="Assets\Scripts\FireOfPlayer.cs" />
+     <Compile Include="Assets\Scripts\GetBuff.cs" />
+     <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
+     <Compile Include="Assets\Scripts\MoveOfPlayer.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\ExampleAssets" />
      <Folder Include="Assets\ExampleAssets\Shaders" />
