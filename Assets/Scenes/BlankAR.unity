@@ -657,7 +657,7 @@ MonoBehaviour:
   zspeed: 8
   moveDistance: 3
   smoothTime: 8
-  dTime: 0.5
+  deltaDistance: 2.5
 --- !u!135 &1103415370
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -699,7 +699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6065783123044494fbce7661eed2ea11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  checkRaduis: 0.05
+  checkRaduis: 0.02
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
