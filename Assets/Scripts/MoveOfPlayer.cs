@@ -75,7 +75,7 @@ public class MoveOfPlayer : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        transform.Translate(0, 0, zspeed * Time.deltaTime);
+        //transform.Translate(0, 0, zspeed * Time.deltaTime);
         targetPosition.y = transform.position.y;
         targetPosition.z = transform.position.z;
         transform.position = Vector3.Lerp(transform.position, targetPosition, smoothTime * Time.deltaTime);

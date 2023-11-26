@@ -10,20 +10,20 @@ public class GetBuff : MonoBehaviour
     void Start()
     {
         onGetBuff.AddListener(GameObject.Find("Player").GetComponent<FireOfPlayer>().IncreaseFire);
-        onGetBuff.AddListener(F);
+       // onGetBuff.AddListener(F);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.name + "碰到了" + this.name);
+        //Debug.Log(other.name + "碰到了" + this.name);
         if (other.name == "Player")
         {
             onGetBuff?.Invoke(increaseBulletSpeed);
         }
     }
 
-    private void F(float a)
-    {
-        Debug.Log("调用");
-    }
+    // private void F(float a)
+    // {
+    //     Debug.Log("调用");
+    // }
 }

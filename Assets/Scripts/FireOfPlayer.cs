@@ -7,23 +7,27 @@ public class FireOfPlayer : MonoBehaviour
     public GameObject bulletPrefab;
     public Transform bulletFloder;
     public Transform firePoint;
-    public float fireInterval;
-    private float _increasedFireSpeed = 1f;
-    public float initialFireInterval = 0.1f;
+    private float _increasedFireSpeed = 0f;
+    public float initialFireInterval = 0.2f;
+    public float fireTimer = 0.2f;
+    public float fireFrequency = 1f;
     
-    // Start is called before the first frame update
-    void Start()
-    {
-        fireInterval = initialFireInterval;
-        InvokeRepeating("BulletFire", fireInterval, fireInterval);
-    }
+   
 
-    // Update is called once per frame
-    void Update()
+    
+
+     void Update()
     {
         
+        fireTimer -= Time.deltaTime;
+        if (fireTimer <= 0) {
+            BulletFire();
+            fireTimer = initialFireInterval /(1 + _increasedFireSpeed) ;
+            fireFrequency = 1 / fireTimer;
+        }
     }
 
+   
     private void BulletFire()
     {
         GameObject node = Instantiate(bulletPrefab, bulletFloder);
@@ -33,6 +37,5 @@ public class FireOfPlayer : MonoBehaviour
     public void IncreaseFire(float addedSpeed)
     {
         _increasedFireSpeed += addedSpeed;
-        fireInterval = initialFireInterval / 1 + _increasedFireSpeed;
     }
 }

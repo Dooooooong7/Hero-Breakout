@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4123292975323115901}
   - component: {fileID: 5857165704211182477}
   - component: {fileID: 7181962168471312316}
+  - component: {fileID: -5095707800809548367}
   m_Layer: 0
   m_Name: BulletOfGun
   m_TagString: Untagged
@@ -112,4 +113,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
-  flytime: 2
+  flyDistance: 20
+  initZ: 0
+  damage: 1
+--- !u!54 &-5095707800809548367
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3531081240263140626}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
