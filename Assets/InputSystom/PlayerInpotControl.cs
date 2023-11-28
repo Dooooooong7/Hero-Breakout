@@ -102,6 +102,17 @@ public partial class @PlayerInpotControl: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""3d9b6555-5623-496a-bc7a-7c76bacd695a"",
+                    ""path"": ""<Gamepad>/dpad/up"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""ec4e6f25-78e2-4f91-b977-c77a2615bd66"",
                     ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
