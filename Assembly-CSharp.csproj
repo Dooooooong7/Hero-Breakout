@@ -68,6 +68,7 @@
      <Compile Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr003-VoiceRecognize\UXRVoiceSample.cs" />
      <Compile Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr004-NormalController\DropMe.cs" />
      <Compile Include="Assets\Scripts\MoveOfPlayer.cs" />
+     <Compile Include="Assets\Scripts\MoveOfGround.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Sci-Fi Styled Modular Pack" />
      <Folder Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr008-CameraPreview" />
@@ -94,6 +95,7 @@
      <Folder Include="Assets\SciFiWarriorPBRHPPolyart" />
      <Folder Include="Assets\XR\Loaders" />
      <Folder Include="Assets\Sci-Fi Styled Modular Pack\Example scenes" />
+     <Folder Include="Assets\Materials\RunWay" />
      <Folder Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr005-GamePadController" />
      <Folder Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\StaticRes\View\DockView_o" />
      <None Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\StaticRes\Interaction\HandCursor.shader" />
@@ -169,6 +171,7 @@
      <Folder Include="Assets\Scenes" />
      <Folder Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\StaticRes" />
      <Folder Include="Assets\Mini Legion Rock Golem PBR HP Polyart\Animations" />
+     <Folder Include="Assets\Materials\Barrier" />
      <None Include="Assets\Sci-Fi Styled Modular Pack\Readme.txt" />
      <Folder Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr009-WebView" />
      <Folder Include="Assets\Sci-Fi Styled Modular Pack\Prefabs\Decorative elements" />
