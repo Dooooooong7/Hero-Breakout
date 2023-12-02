@@ -54,11 +54,6 @@ public class LogicOfEnemy : MonoBehaviour
         yield return new WaitForSeconds(1.0f);
         isHurt = false;
     }
-
-    // private IEnumerator OnDead()
-    // {
-    //     isDead = true;
-    //     yield return new WaitForSeconds(1.0f);
-    // }
+    
     
 }

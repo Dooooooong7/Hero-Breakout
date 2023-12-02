@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 60123346530212391}
   - component: {fileID: 2367794726281592676}
   - component: {fileID: -8293072761913967712}
-  - component: {fileID: -3826641247748389389}
+  - component: {fileID: 7965640430328996898}
   m_Layer: 0
-  m_Name: BuffDoors
+  m_Name: BuffDoors 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 062119b69dd05394ca0021d7a6a1944b, type: 2}
+  - {fileID: 2100000, guid: eaa298f25c19fea48a1f1037e9dbd78a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67448abed8c757144bcbff4569a70000, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  increaseBulletSpeed: 0.1
+  increaseBulletSpeed: -0.1
   onGetBuff:
     m_PersistentCalls:
       m_Calls:
@@ -127,7 +127,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &-3826641247748389389
+--- !u!114 &7965640430328996898
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
