@@ -883,14 +883,17 @@
      <Reference Include="Unity.TextMeshPro">
      <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Burst.Editor">
-     <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
      <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Burst.Editor">
+     <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Subsystem.Registration">
      <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Postprocessing.Editor">
+     <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
      <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
@@ -918,6 +921,9 @@
      </Reference>
      <Reference Include="Unity.Burst">
      <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Postprocessing.Runtime">
+     <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.XR.MagicLeap">
      <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\UnityEditor.XR.MagicLeap.dll</HintPath>
@@ -972,27 +978,6 @@
      </Reference>
      <Reference Include="Rokid.XR.Core">
      <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Rokid.XR.Core.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.InternalAPIEditorBridge.003">
-     <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.003.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VectorGraphics">
-     <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.VectorGraphics.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.InternalAPIEngineBridge.003">
-     <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.003.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.Sprite.Editor">
-     <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VectorGraphics.Editor">
-     <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.VectorGraphics.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Postprocessing.Editor">
-     <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Postprocessing.Runtime">
-     <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

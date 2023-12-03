@@ -42,33 +42,45 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr001-HeadTracking\HeadTrackingScene.cs" />
+     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Audio\CheckSFXVolume.cs" />
      <Compile Include="Assets\InputSystom\PlayerInpotControl.cs" />
      <Compile Include="Assets\Scripts\MoveOfCamera.cs" />
      <Compile Include="Assets\Scripts\CreatBarrier.cs" />
      <Compile Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr013_HandPokeAndRay\SetChildSibilingIndex.cs" />
      <Compile Include="Assets\Scripts\PhysicsCheck.cs" />
      <Compile Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr008-CameraPreview\CameraPreview.cs" />
+     <Compile Include="Assets\Scripts\UI相关\StartScene.cs" />
+     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUI.cs" />
      <Compile Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr013_HandPokeAndRay\ChangColor.cs" />
      <Compile Include="Assets\Scripts\MoveOfGroundTwo.cs" />
+     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Misc\ExtraLinks.cs" />
+     <Compile Include="Assets\Scripts\UI相关\ResetButtonController.cs" />
      <Compile Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr017-Overlay3D\Overlay3DSample.cs" />
      <Compile Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr016-UIOverlay\UIOverlaySample.cs" />
      <Compile Include="Assets\Scripts\MoveOfEnermy.cs" />
+     <Compile Include="Assets\Scripts\UI相关\RevealMenuInfo.cs" />
      <Compile Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr014-RKSensorAPI\RKSensorAPIDemo.cs" />
      <Compile Include="Assets\Scripts\FireOfPlayer.cs" />
+     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Managers\UIMenuManager.cs" />
      <Compile Include="Assets\Scripts\GetBuff.cs" />
      <Compile Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr015-RKHandGrab\RKHandInteractionDemo.cs" />
      <Compile Include="Assets\Scripts\EndGame.cs" />
      <Compile Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr009-WebView\WebViewDemo.cs" />
      <Compile Include="Assets\Scripts\LogicOfEnemy.cs" />
+     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Audio\CheckMusicVolume.cs" />
      <Compile Include="Assets\Scripts\CreatBuffDoor.cs" />
+     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Managers\UISettingsManager.cs" />
      <Compile Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr000-HelloRokid\HelloRokid.cs" />
+     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Misc\ResetDemo.cs" />
      <Compile Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr-MainScene\MainSceneSample.cs" />
      <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
      <Compile Include="Assets\Scripts\MoveOfBullet.cs" />
      <Compile Include="Assets\Scripts\MoveOfBarrier.cs" />
      <Compile Include="Assets\Scripts\MoveOfGround.cs" />
+     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUIData.cs" />
      <Compile Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr013_HandPokeAndRay\AttributeRegulation.cs" />
      <Compile Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr004-NormalController\DragMe.cs" />
+     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUIElement.cs" />
      <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
      <Compile Include="Assets\Scripts\MoveOfBuff.cs" />
      <Compile Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr005-GamePadController\VirtualControllerSample.cs" />
@@ -76,18 +88,6 @@
      <Compile Include="Assets\Scripts\CreatEnermy.cs" />
      <Compile Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr004-NormalController\DropMe.cs" />
      <Compile Include="Assets\Scripts\MoveOfPlayer.cs" />
-     <Compile Include="Assets\Scripts\UI相关\StartScene.cs" />
-     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Audio\CheckSFXVolume.cs" />
-     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Misc\ResetDemo.cs" />
-     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Misc\ExtraLinks.cs" />
-     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Audio\CheckMusicVolume.cs" />
-     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Managers\UISettingsManager.cs" />
-     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUIData.cs" />
-     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUIElement.cs" />
-     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUI.cs" />
-     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Managers\UIMenuManager.cs" />
-     <Compile Include="Assets\Scripts\UI相关\RevealMenuInfo.cs" />
-     <Compile Include="Assets\Scripts\UI相关\ResetButtonController.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\SlimUI\Modern Menu 1\Prefabs\Canvas Templates" />
      <Folder Include="Assets\Sci-Fi Styled Modular Pack" />
@@ -181,7 +181,6 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <Folder Include="Assets\SlimUI\Modern Menu 1\Scenes" />
-     <Folder Include="Assets\UI资源" />
      <Folder Include="Assets\Materials" />
      <Folder Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\StaticRes\View\AppListView\Texture" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
@@ -1039,14 +1038,17 @@
      <Reference Include="Unity.TextMeshPro">
      <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Burst.Editor">
-     <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
      <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Burst.Editor">
+     <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Subsystem.Registration">
      <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Postprocessing.Editor">
+     <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
      <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
@@ -1074,6 +1076,9 @@
      </Reference>
      <Reference Include="Unity.Burst">
      <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Postprocessing.Runtime">
+     <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.XR.MagicLeap">
      <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\UnityEditor.XR.MagicLeap.dll</HintPath>
@@ -1128,27 +1133,6 @@
      </Reference>
      <Reference Include="Rokid.XR.Core">
      <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Rokid.XR.Core.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.InternalAPIEditorBridge.003">
-     <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.003.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VectorGraphics">
-     <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.VectorGraphics.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.InternalAPIEngineBridge.003">
-     <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.003.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.Sprite.Editor">
-     <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VectorGraphics.Editor">
-     <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.VectorGraphics.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Postprocessing.Editor">
-     <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Postprocessing.Runtime">
-     <HintPath>F:\U3D\Project\Hero-Breakout\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
