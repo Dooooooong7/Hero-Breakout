@@ -6,16 +6,25 @@ using UnityEngine;
 
 public class LogicOfEnemy : MonoBehaviour
 {
-    [HideInInspector]public Animator anim;
-    [Header("基本属性")]
-    public float blood = 10f;
+    private Transform capsuleTransform;
+    [HideInInspector] public Animator anim;
+    [Header("基本属性")] 
+    public float currentBlood;
+    
+    public float maxblood = 10f;
     
     [Header("状态")]
     public bool isHurt = false;
     
     public bool isDead = false;
-    
-    
+
+
+    private void Start()
+    {
+        capsuleTransform = transform.Find("BloodCapsule");
+        currentBlood = maxblood;
+    }
+
     private void Awake()
     {
         anim = GetComponent<Animator>();
@@ -25,7 +34,7 @@ public class LogicOfEnemy : MonoBehaviour
     {
         anim.SetBool("hurt",isHurt);
         anim.SetBool("dead",isDead);
-        if (blood <= 0)
+        if (currentBlood <= 0)
         {
             // StartCoroutine(OnDead());
             Destroy(this.gameObject);
@@ -41,10 +50,16 @@ public class LogicOfEnemy : MonoBehaviour
         }
         if (other.name == "BulletOfGun(Clone)") 
         {
-            blood -= GameObject.Find("BulletOfGun(Clone)").GetComponent<MoveOfBullet>().nowDamage;
+            currentBlood -= GameObject.Find("BulletOfGun(Clone)").GetComponent<MoveOfBullet>().nowDamage;
             StartCoroutine(OnHurt());
             GameObject.Find("BulletOfGun(Clone)").GetComponent<MoveOfBullet>().SelfDestroy();
         }
+        float healthPercentage = Mathf.Clamp01(currentBlood/ maxblood);
+        float newWidth = healthPercentage;
+        Vector3 scale = capsuleTransform.localScale;
+        scale.y = capsuleTransform.localScale.y*newWidth;
+        capsuleTransform.localScale = scale;
+
     }
     
     private IEnumerator OnHurt()
