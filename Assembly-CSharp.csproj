@@ -216,7 +216,6 @@
      <Folder Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr015-RKHandGrab" />
      <Folder Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\StaticRes\Arts" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-     <Folder Include="Assets\Scripts\血条逻辑" />
      <Folder Include="Assets\Materials\Buff" />
      <Folder Include="Assets\Samples\Rokid UXR SDK\2.3.10" />
      <Folder Include="Assets\SlimUI\Modern Menu 1\Audio" />

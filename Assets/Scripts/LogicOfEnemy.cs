@@ -21,7 +21,7 @@ public class LogicOfEnemy : MonoBehaviour
 
     private void Start()
     {
-        capsuleTransform = transform.Find("BloodCapsule");
+        capsuleTransform = transform.Find("Blood");
         currentBlood = maxblood;
     }
 
