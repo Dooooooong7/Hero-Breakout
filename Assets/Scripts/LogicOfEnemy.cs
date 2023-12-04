@@ -25,7 +25,7 @@ public class LogicOfEnemy : MonoBehaviour
     {
         anim.SetBool("hurt",isHurt);
         anim.SetBool("dead",isDead);
-        if (blood == 0)
+        if (blood <= 0)
         {
             // StartCoroutine(OnDead());
             Destroy(this.gameObject);
@@ -41,10 +41,9 @@ public class LogicOfEnemy : MonoBehaviour
         }
         if (other.name == "BulletOfGun(Clone)") 
         {
-            Debug.Log(2);
-            blood -= GameObject.Find("BulletOfGun(Clone)").GetComponent<MoveOfBullet>().damage;
+            blood -= GameObject.Find("BulletOfGun(Clone)").GetComponent<MoveOfBullet>().nowDamage;
             StartCoroutine(OnHurt());
-            GameObject.Find("BulletOfGun(Clone)").GetComponent<MoveOfBullet>().selfDestroy();
+            GameObject.Find("BulletOfGun(Clone)").GetComponent<MoveOfBullet>().SelfDestroy();
         }
     }
     

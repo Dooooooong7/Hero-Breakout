@@ -7,13 +7,16 @@ public class FireOfPlayer : MonoBehaviour
     public GameObject bulletPrefab;
     public Transform bulletFloder;
     public Transform firePoint;
-    private float _increasedFireSpeed = 0f;
     public float initialFireInterval = 0.2f;
     public float fireTimer = 0.2f;
     public float fireFrequency = 1f;
-    
-   
 
+    public float addDistance = 0f;
+    public float addDamage = 0f;
+    public float addSpeed = 0f;
+    public float addFrequency = 0f;
+
+    public MoveOfBullet moveOfBullet;
     
 
      void Update()
@@ -22,7 +25,7 @@ public class FireOfPlayer : MonoBehaviour
         fireTimer -= Time.deltaTime;
         if (fireTimer <= 0) {
             BulletFire();
-            fireTimer = initialFireInterval /(1 + _increasedFireSpeed) ;
+            fireTimer = initialFireInterval /(1 + addFrequency) ;
             fireFrequency = 1 / fireTimer;
         }
     }
@@ -30,12 +33,36 @@ public class FireOfPlayer : MonoBehaviour
    
     private void BulletFire()
     {
+        
         GameObject node = Instantiate(bulletPrefab, bulletFloder);
         node.transform.position = firePoint.position;
+
+ 
+        moveOfBullet = node.GetComponent<MoveOfBullet>();
+        moveOfBullet.nowSpeed += addSpeed;
+        moveOfBullet.nowDamage += addDamage;
+        moveOfBullet.nowFlyDistance += addDistance;
+        
     }
 
     public void IncreaseFire(float addedSpeed)
     {
-        _increasedFireSpeed += addedSpeed;
+        addFrequency += addedSpeed;
     }
+    
+    public void IncMoveSpeed(float add)
+    {
+        addSpeed += add;
+    }
+    
+    public void IncMoveDistance(float add)
+    {
+        addDistance += add;
+    }
+
+    public void IncDamage(float add)
+    {
+        addDamage += add;
+    }
+    
 }

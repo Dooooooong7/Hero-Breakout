@@ -4,13 +4,13 @@ using UnityEngine.Events;
 public class GetBuff : MonoBehaviour
 {
     public float increaseBulletSpeed = 0.1f;
-    public UnityEvent<float> onGetBuff; 
+    public UnityEvent<float> onIncreaseBulletSpeed; 
     
     // Start is called before the first frame update
     void Start()
     {
-        onGetBuff.AddListener(GameObject.Find("Player").GetComponent<FireOfPlayer>().IncreaseFire);
-       // onGetBuff.AddListener(F);
+        onIncreaseBulletSpeed.AddListener(GameObject.Find("Player").GetComponent<FireOfPlayer>().IncreaseFire);
+       // onIncreaseBulletSpeed.AddListener(F);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -18,7 +18,7 @@ public class GetBuff : MonoBehaviour
         //Debug.Log(other.name + "碰到了" + this.name);
         if (other.name == "Player")
         {
-            onGetBuff?.Invoke(increaseBulletSpeed);
+            onIncreaseBulletSpeed?.Invoke(increaseBulletSpeed);
         }
     }
 

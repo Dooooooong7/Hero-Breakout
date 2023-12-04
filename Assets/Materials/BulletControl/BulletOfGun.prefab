@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 3810605671479548048}
   - component: {fileID: 4123292975323115901}
   - component: {fileID: 5857165704211182477}
-  - component: {fileID: 7181962168471312316}
   - component: {fileID: -5095707800809548367}
+  - component: {fileID: 7181962168471312316}
   m_Layer: 0
   m_Name: BulletOfGun
   m_TagString: Untagged
@@ -100,22 +100,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7181962168471312316
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3531081240263140626}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e04bacad24f4b8144b2fd2bd5ac53f5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 20
-  flyDistance: 20
-  initZ: 0
-  damage: 1
 --- !u!54 &-5095707800809548367
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -132,3 +116,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!114 &7181962168471312316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3531081240263140626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e04bacad24f4b8144b2fd2bd5ac53f5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nowSpeed: 10
+  nowFlyDistance: 10
+  initZ: 0
+  nowDamage: 10

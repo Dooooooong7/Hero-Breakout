@@ -36,7 +36,7 @@ public class CreatBuffDoor : MonoBehaviour
 
     public void CreatBuff()
     {
-        _spawnPosition.y += 1.5f;
+        //_spawnPosition.y += 1.5f;
         for (int i = 0; i < 3; i++)
         {
             int indexBarrier = Random.Range(0, buffDoor.Count);

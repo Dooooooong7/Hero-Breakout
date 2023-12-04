@@ -1,27 +1,30 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class MoveOfBullet : MonoBehaviour
 {
-    public float speed = 1f;
-    public float flyDistance = 15f;
+    public float nowSpeed = 1f;
+    //public float intSpeed = 1f;
+    //public float intflyDistance = 10f;
+    public float nowFlyDistance = 10f;
+    
     public float initZ;
-    public float damage = 1;
+    public float nowDamage = 10f;
+    //public float intDamage = 10f;
     
-    
-    // Start is called before the first frame update
     void Start()
     {
         initZ = transform.position.z;
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
-        transform.Translate(0,0,speed * Time.deltaTime,Space.World);
-        if(transform.position.z - initZ >= flyDistance) selfDestroy();
+        
+        transform.Translate(0,0,nowSpeed * Time.deltaTime,Space.World);
+        if(transform.position.z - initZ >= nowFlyDistance) SelfDestroy();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -29,10 +32,9 @@ public class MoveOfBullet : MonoBehaviour
         Debug.Log("子弹击中" + other.name);
     }
 
-    public void selfDestroy()
+    public void SelfDestroy()
     {
         Destroy(this.gameObject);
     }
-    
     
 }

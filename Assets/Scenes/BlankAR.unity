@@ -267,8 +267,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buffDoor:
-  - {fileID: 717043846328329109, guid: 2841b0eaedda2034ab559440a5d4d22c, type: 3}
-  - {fileID: 717043846328329109, guid: 46aa77bf73ec42944945eb0a1534e64e, type: 3}
+  - {fileID: 141970, guid: 7924e873745bb8c4c968b4b47228c48e, type: 3}
+  - {fileID: 141970, guid: 9ff94e015c4961a428c8383b7d59a64a, type: 3}
+  - {fileID: 141970, guid: e0aa4d05b35116b45821c4bb47bd5389, type: 3}
+  - {fileID: 141970, guid: 9186acb579c14c045a00412f4bfc460f, type: 3}
+  - {fileID: 141970, guid: 2c191edff5249e3499e39b0d22df13c8, type: 3}
+  - {fileID: 141970, guid: 96f96f35a08152c498c91e9cf17a777f, type: 3}
+  - {fileID: 141970, guid: 8c0a4710017dd1348b6e8b82655cb18c, type: 3}
+  - {fileID: 141970, guid: ac7a01ca06ca9044eb15b32cb7a936f8, type: 3}
   buffXPosition:
   - -3
   - 0
@@ -3433,7 +3439,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1103415364}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3527,6 +3533,11 @@ MonoBehaviour:
   initialFireInterval: 0.5
   fireTimer: 0.2
   fireFrequency: 1
+  addDistance: 0
+  addDamage: 0
+  addSpeed: 0
+  addFrequency: 0
+  moveOfBullet: {fileID: 0}
 --- !u!1001 &1112309513
 PrefabInstance:
   m_ObjectHideFlags: 0
