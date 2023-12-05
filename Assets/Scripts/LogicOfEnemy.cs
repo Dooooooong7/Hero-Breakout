@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class LogicOfEnemy : MonoBehaviour
 {
@@ -18,7 +19,8 @@ public class LogicOfEnemy : MonoBehaviour
     
     public bool isDead = false;
 
-
+   
+    
     private void Start()
     {
         capsuleTransform = transform.Find("Blood");
@@ -37,13 +39,12 @@ public class LogicOfEnemy : MonoBehaviour
         if (currentBlood <= 0)
         {
             // StartCoroutine(OnDead());
-            Destroy(this.gameObject);
+            GetComponent<MoveOfEnermy>().SelfDestroy(1);
         }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(1);
         if (other.name == "Player")
         {
             var pBlood = other.GetComponent<BloodOfPlayer>();
@@ -52,10 +53,8 @@ public class LogicOfEnemy : MonoBehaviour
                  pBlood.blood -= currentBlood;
                  pBlood.countTime = 0;
             }
-               
             Debug.Log("碰到敌人,当前血量为" + pBlood.blood);
-            GetComponent<MoveOfEnermy>().SelfDestroy();
-            
+            GetComponent<MoveOfEnermy>().SelfDestroy(1);
         }
         
         if (other.name == "BulletOfGun(Clone)") 

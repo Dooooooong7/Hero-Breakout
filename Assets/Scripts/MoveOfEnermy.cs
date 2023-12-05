@@ -8,6 +8,12 @@ public class MoveOfEnermy : MonoBehaviour
     public float moveDistance = 15f;
     public float initZ;
     
+    [Header("buff")]
+    public float increaseBulletDistance = 0.5f;
+    public float increaseBulletFrequency = 0.1f;
+    public float increaseBulletDamage = 1f;
+    public float increaseBulletSpeed = 0.1f;
+
     void Start()
     {
         initZ = transform.position.z;
@@ -17,11 +23,28 @@ public class MoveOfEnermy : MonoBehaviour
     void Update()
     {
         transform.Translate(0,0,speed * Time.deltaTime,Space.World);
-        if( initZ - transform.position.z >= moveDistance) SelfDestroy();
+        if( initZ - transform.position.z >= moveDistance) SelfDestroy(0);
     }
     
-    public void SelfDestroy()
+    public void SelfDestroy(int isKilled)
     {
+        if (isKilled == 1)
+        {
+            Debug.Log(1);
+            int i = Random.Range(0, 3);
+            var buff = GameObject.Find("Player").GetComponent<FireOfPlayer>();
+            switch (i)
+            {
+                  case 0: buff.IncDamage(increaseBulletDamage);
+                      break;
+                  case 1: buff.IncreaseFire(increaseBulletFrequency);
+                      break;
+                  case 2: buff.IncMoveDistance(increaseBulletDistance);
+                      break;
+                  case 3: buff.IncMoveSpeed(increaseBulletSpeed);
+                      break;
+            }
+        }
         Destroy(this.gameObject);
     }
 }
