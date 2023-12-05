@@ -46,8 +46,18 @@ public class LogicOfEnemy : MonoBehaviour
         Debug.Log(1);
         if (other.name == "Player")
         {
-            Time.timeScale = 0;
+            var pBlood = other.GetComponent<BloodOfPlayer>();
+            if (pBlood.countTime >= pBlood.timeUnhurtable)
+            {
+                 pBlood.blood -= currentBlood;
+                 pBlood.countTime = 0;
+            }
+               
+            Debug.Log("碰到敌人,当前血量为" + pBlood.blood);
+            GetComponent<MoveOfEnermy>().SelfDestroy();
+            
         }
+        
         if (other.name == "BulletOfGun(Clone)") 
         {
             currentBlood -= GameObject.Find("BulletOfGun(Clone)").GetComponent<MoveOfBullet>().nowDamage;
@@ -59,7 +69,6 @@ public class LogicOfEnemy : MonoBehaviour
         Vector3 scale = capsuleTransform.localScale;
         scale.y = capsuleTransform.localScale.y*newWidth;
         capsuleTransform.localScale = scale;
-
     }
     
     private IEnumerator OnHurt()

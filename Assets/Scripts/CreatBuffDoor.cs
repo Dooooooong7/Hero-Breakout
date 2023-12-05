@@ -15,7 +15,7 @@ public class CreatBuffDoor : MonoBehaviour
 
     private void Start()
     {
-        _countTime = 3;
+        _countTime = 2;
     }
 
     private void Update()

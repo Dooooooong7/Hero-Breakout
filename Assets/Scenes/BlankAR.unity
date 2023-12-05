@@ -192,10 +192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buffDoor:
-  - {fileID: 141970, guid: 7924e873745bb8c4c968b4b47228c48e, type: 3}
-  - {fileID: 141970, guid: 9ff94e015c4961a428c8383b7d59a64a, type: 3}
-  - {fileID: 141970, guid: e0aa4d05b35116b45821c4bb47bd5389, type: 3}
-  - {fileID: 141970, guid: 9186acb579c14c045a00412f4bfc460f, type: 3}
+  - {fileID: 141970, guid: 4a89dd019ac6d7649aab2c28d0c6f42b, type: 3}
   - {fileID: 141970, guid: 2c191edff5249e3499e39b0d22df13c8, type: 3}
   - {fileID: 141970, guid: 96f96f35a08152c498c91e9cf17a777f, type: 3}
   - {fileID: 141970, guid: 8c0a4710017dd1348b6e8b82655cb18c, type: 3}
@@ -204,7 +201,7 @@ MonoBehaviour:
   - -3
   - 0
   - 3
-  spawnTime: 12
+  spawnTime: 8
   buffFloder: {fileID: 1582763547}
 --- !u!114 &46678653
 MonoBehaviour:
@@ -1391,6 +1388,7 @@ GameObject:
   - component: {fileID: 1103415370}
   - component: {fileID: 1103415372}
   - component: {fileID: 1103415373}
+  - component: {fileID: 1103415374}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1480,7 +1478,6 @@ MonoBehaviour:
   inputDirection: 0
   physicsCheck: {fileID: 0}
   jumpForce: 15
-  zspeed: 8
   moveDistance: 3
   smoothTime: 8
   deltaDistance: 2.5
@@ -1555,6 +1552,21 @@ MonoBehaviour:
   addSpeed: 0
   addFrequency: 0
   moveOfBullet: {fileID: 0}
+--- !u!114 &1103415374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103415364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f303875ac5a00848a19a0fca4453b01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blood: 1000
+  timeUnhurtable: 1
+  countTime: 0
 --- !u!1001 &1162994806
 PrefabInstance:
   m_ObjectHideFlags: 0

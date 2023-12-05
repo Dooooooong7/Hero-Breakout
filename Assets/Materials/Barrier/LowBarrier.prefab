@@ -13,10 +13,11 @@ GameObject:
   - component: {fileID: 2304036}
   - component: {fileID: 6512950}
   - component: {fileID: -2964294632569053024}
-  - component: {fileID: -3319930696062822299}
   - component: {fileID: -8967282379369473236}
+  - component: {fileID: -7297927074572765988}
+  - component: {fileID: -8648902103325903755}
   m_Layer: 0
-  m_Name: Cube_1x2_extended
+  m_Name: LowBarrier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -116,18 +117,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 1
---- !u!114 &-3319930696062822299
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 180694}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a9d73947f6abeb4cbb9c76611934274, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &-8967282379369473236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,3 +132,28 @@ MonoBehaviour:
   speed: -8
   moveDistance: 100
   initZ: 0
+--- !u!114 &-7297927074572765988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6102f3cd5b7ef2e44990952d7d0a3678, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 20
+--- !u!114 &-8648902103325903755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 438c861172440834381932a7dbdb6848, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -13,7 +13,7 @@ public class CreatEnermy : MonoBehaviour
 
     private void Start()
     {
-        _countTime = 6;
+        _countTime = 4;
     }
 
     private void Update()
