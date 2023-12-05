@@ -49,11 +49,13 @@ public class LogicOfEnemy : MonoBehaviour
             var pBlood = other.GetComponent<BloodOfPlayer>();
             if (pBlood.countTime >= pBlood.timeUnhurtable)
             {
-                 pBlood.blood -= currentBlood;
+                if (pBlood.currentBlood < currentBlood)
+                    pBlood.currentBlood = 0;
+                else pBlood.currentBlood -= currentBlood;
                  pBlood.countTime = 0;
             }
                
-            Debug.Log("碰到敌人,当前血量为" + pBlood.blood);
+            Debug.Log("碰到敌人,当前血量为" + pBlood.currentBlood);
             GetComponent<MoveOfEnermy>().SelfDestroy();
             
         }
