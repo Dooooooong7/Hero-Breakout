@@ -2136,6 +2136,7 @@ MonoBehaviour:
   initialFireInterval: 0.5
   fireTimer: 0.2
   fireFrequency: 1
+  buffData: {fileID: 11400000, guid: a8e266264ffc7264d81c33ba0a86de67, type: 2}
   addDistance: 0
   addDamage: 0
   addSpeed: 0
@@ -2181,6 +2182,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1107657186}
+  - component: {fileID: 1107657187}
   m_Layer: 5
   m_Name: Buff
   m_TagString: Untagged
@@ -2212,6 +2214,24 @@ RectTransform:
   m_AnchoredPosition: {x: -197.76459, y: -48.584976}
   m_SizeDelta: {x: 54.820923, y: 226.09396}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1107657187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107657185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b244f414d1ee7ec44ab32ddba8c745f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buffData: {fileID: 11400000, guid: a8e266264ffc7264d81c33ba0a86de67, type: 2}
+  text:
+  - {fileID: 457963090}
+  - {fileID: 1612732730}
+  - {fileID: 1320819058}
+  - {fileID: 1826318803}
 --- !u!1 &1135565798
 GameObject:
   m_ObjectHideFlags: 0
