@@ -12,14 +12,17 @@ public class CreatBuffDoor : MonoBehaviour
     private float _countTime;
     private Vector3 _spawnPosition;
     public Transform buffFloder;
+    public CreatBarrier mainSpawnTime;
 
     private void Start()
     {
+        mainSpawnTime = GetComponent<CreatBarrier>();
         _countTime = 2;
     }
 
     private void Update()
     {
+        spawnTime = 4 * mainSpawnTime.spawnTime;
         SpawnBuff();
     }
 

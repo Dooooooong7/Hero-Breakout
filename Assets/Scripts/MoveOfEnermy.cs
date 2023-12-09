@@ -7,6 +7,8 @@ public class MoveOfEnermy : MonoBehaviour
     public float speed = 1f;
     public float moveDistance = 15f;
     public float initZ;
+    public MoveOfGround moveSpeed;
+
     
     [Header("buff")]
     public float increaseBulletDistance = 0.5f;
@@ -16,12 +18,14 @@ public class MoveOfEnermy : MonoBehaviour
 
     void Start()
     {
+        moveSpeed = GameObject.Find("GroundOne").GetComponent<MoveOfGround>();
         initZ = transform.position.z;
     }
 
     
     void Update()
     {
+        speed = moveSpeed.speed;
         transform.Translate(0,0,speed * Time.deltaTime,Space.World);
         if( initZ - transform.position.z >= moveDistance) SelfDestroy(0);
     }

@@ -10,14 +10,17 @@ public class CreatEnermy : MonoBehaviour
     private float _countTime;
     private Vector3 _spawnPosition;
     public Transform enemyFloder;
+    public CreatBarrier mainSpawnTime;
 
     private void Start()
     {
-        _countTime = 4;
+        mainSpawnTime = GetComponent<CreatBarrier>();
+        _countTime = spawnTime/2;
     }
 
     private void Update()
     {
+        spawnTime = 4 * mainSpawnTime.spawnTime;
         SpawnEnemy();
     }
 
@@ -34,7 +37,6 @@ public class CreatEnermy : MonoBehaviour
 
     public void CreatEnemy()
     {
-        //_spawnPosition.y += 1.5f;
         int indexEnemy = Random.Range(0, enemy.Count);
         int indexPosition = Random.Range(0, enemyXPosition.Count);
         _spawnPosition.x = enemyXPosition[indexPosition];

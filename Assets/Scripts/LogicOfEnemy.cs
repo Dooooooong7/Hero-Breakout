@@ -12,19 +12,26 @@ public class LogicOfEnemy : MonoBehaviour
     [Header("基本属性")] 
     public float currentBlood;
     
-    public float maxblood = 10f;
+    public float maxblood = 50f;
+    public float bloodGrow;
     
     [Header("状态")]
     public bool isHurt = false;
     
     public bool isDead = false;
 
-   
+    public float nowTime;
+
+    public bool canBeHurt;
+  
+    
     
     private void Start()
     {
-        capsuleTransform = transform.Find("Blood");
+        nowTime = Time.time;
+        maxblood = 20f + bloodGrow * nowTime / 8f;
         currentBlood = maxblood;
+        capsuleTransform = transform.Find("Blood");
     }
 
     private void Awake()
@@ -50,14 +57,17 @@ public class LogicOfEnemy : MonoBehaviour
             var pBlood = other.GetComponent<BloodOfPlayer>();
             if (pBlood.countTime >= pBlood.timeUnhurtable)
             {
-                 pBlood.blood -= currentBlood;
+                if (pBlood.currentBlood < currentBlood)
+                    pBlood.currentBlood = 0;
+                else pBlood.currentBlood -= currentBlood;
                  pBlood.countTime = 0;
             }
-            Debug.Log("碰到敌人,当前血量为" + pBlood.blood);
+            Debug.Log("碰到敌人,当前血量为" + pBlood.currentBlood);
             GetComponent<MoveOfEnermy>().SelfDestroy(1);
+            
         }
         
-        if (other.name == "BulletOfGun(Clone)") 
+        if (other.name == "BulletOfGun(Clone)" && canBeHurt) 
         {
             currentBlood -= GameObject.Find("BulletOfGun(Clone)").GetComponent<MoveOfBullet>().nowDamage;
             StartCoroutine(OnHurt());

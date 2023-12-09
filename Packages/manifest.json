@@ -2,6 +2,7 @@
   "dependencies": {
     "com.rokid.xr.core": "1.22.1",
     "com.rokid.xr.unity": "2.3.10",
+    "com.unity.2d.sprite": "1.0.0",
     "com.unity.collab-proxy": "2.2.0",
     "com.unity.feature.ar": "1.0.0",
     "com.unity.feature.development": "1.0.1",

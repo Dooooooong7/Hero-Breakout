@@ -112,8 +112,8 @@ GameObject:
   - component: {fileID: 9575016}
   - component: {fileID: 6452128}
   - component: {fileID: -6551857919991115961}
-  - component: {fileID: -574782409643406467}
   - component: {fileID: 5245948387627584811}
+  - component: {fileID: -7198798546953884828}
   m_Layer: 0
   m_Name: IncBulletDamage
   m_TagString: Untagged
@@ -235,25 +235,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b189e166f60134e43a74f5273ccf2fc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -8
+  speed: -7
   moveDistance: 100
   initZ: 0
---- !u!114 &-574782409643406467
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 141970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42230d99c338ec54cb1d4418466f0391, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  increaseBulletDamage: 1
-  onIncreaseBulletDamage:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!65 &5245948387627584811
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -267,3 +251,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.000001, y: 4.000002, z: 0.32954714}
   m_Center: {x: 0.00000035762787, y: 2, z: 0.0000025480986}
+--- !u!114 &-7198798546953884828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67448abed8c757144bcbff4569a70000, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buffNum: 1
+  increaseBulletDamage: 0.5
+  onIncreaseBulletDamage:
+    m_PersistentCalls:
+      m_Calls: []
+  increaseBulletDistance: 0.5
+  onIncreaseBulletDistance:
+    m_PersistentCalls:
+      m_Calls: []
+  increaseBulletFrequency: 0.1
+  onIncreaseBulletFrequency:
+    m_PersistentCalls:
+      m_Calls: []
+  increaseBulletSpeed: 0.1
+  onIncreaseBulletSpeed:
+    m_PersistentCalls:
+      m_Calls: []
+  increaseBlood: 10
+  onIncreaseBlood:
+    m_PersistentCalls:
+      m_Calls: []

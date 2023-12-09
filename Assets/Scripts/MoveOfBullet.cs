@@ -7,13 +7,10 @@ using UnityEngine;
 public class MoveOfBullet : MonoBehaviour
 {
     public float nowSpeed = 1f;
-    //public float intSpeed = 1f;
-    //public float intflyDistance = 10f;
     public float nowFlyDistance = 10f;
-    
     public float initZ;
     public float nowDamage = 10f;
-    //public float intDamage = 10f;
+    
     
     void Start()
     {
@@ -29,7 +26,7 @@ public class MoveOfBullet : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("子弹击中" + other.name);
+        //Debug.Log("子弹击中" + other.name);
     }
 
     public void SelfDestroy()

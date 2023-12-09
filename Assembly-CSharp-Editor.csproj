@@ -889,6 +889,9 @@
      <Reference Include="Unity.VisualScripting.Core.Editor">
      <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.2D.Sprite.Editor">
+     <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Subsystem.Registration">
      <HintPath>D:\unity\project\Hero-Breakout\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
      </Reference>

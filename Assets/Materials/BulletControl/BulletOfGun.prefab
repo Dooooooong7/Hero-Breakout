@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e04bacad24f4b8144b2fd2bd5ac53f5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nowSpeed: 10
-  nowFlyDistance: 10
+  nowSpeed: 8
+  nowFlyDistance: 15
   initZ: 0
   nowDamage: 10

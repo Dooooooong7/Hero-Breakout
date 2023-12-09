@@ -72,21 +72,10 @@ public class MoveOfPlayer : MonoBehaviour
         transform.position = Vector3.Lerp(transform.position, targetPosition, smoothTime * Time.deltaTime);
         
     }
-
-    private void FixedUpdate()
-    {
-        
-    }
-    
-    
-    
     
     private void Jump(InputAction.CallbackContext obj)
     {
         if(physicsCheck.onGround) 
             rb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
     }
-
-    
-    
 }
