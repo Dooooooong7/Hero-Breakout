@@ -14,6 +14,7 @@ public class LogicOfBoss : MonoBehaviour
     
     public float maxblood = 50f;
     public float bloodGrow;
+    public float length;
     
     [Header("状态")]
     public bool isHurt = false;
@@ -32,6 +33,7 @@ public class LogicOfBoss : MonoBehaviour
         maxblood = 20f + bloodGrow * nowTime / 8f;
         currentBlood = maxblood;
         capsuleTransform = transform.Find("Blood");
+        length = capsuleTransform.localScale.y;
     }
 
     private void Awake()
@@ -75,7 +77,7 @@ public class LogicOfBoss : MonoBehaviour
             float healthPercentage = Mathf.Clamp01(currentBlood/ maxblood);
             float newWidth = healthPercentage;
             Vector3 scale = capsuleTransform.localScale;
-            scale.y = capsuleTransform.localScale.y*newWidth;
+            scale.y = length*newWidth;
             capsuleTransform.localScale = scale;
         }
         

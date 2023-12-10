@@ -132,7 +132,7 @@ MonoBehaviour:
   nowSpeed: 8
   nowFlyDistance: 15
   initZ: 0
-  nowDamage: 10
+  nowDamage: 1
 --- !u!114 &7921292162922446750
 MonoBehaviour:
   m_ObjectHideFlags: 0
