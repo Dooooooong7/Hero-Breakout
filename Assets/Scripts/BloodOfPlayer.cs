@@ -12,6 +12,7 @@ public class BloodOfPlayer : MonoBehaviour
    public float countTime;
    // public UnityEvent<BloodOfPlayer> OnHealthChange;
    public CharacterEventSO BloodChangeEventSO;
+   public GameObject gameOverPanel;
    
    public float nowTime;
    
@@ -36,6 +37,7 @@ public class BloodOfPlayer : MonoBehaviour
       countTime += Time.deltaTime;
       if (currentBlood <= 0)
       {
+         gameOverPanel.gameObject.SetActive(true);
          Time.timeScale = 0;
          Debug.Log("游戏失败！");
       }

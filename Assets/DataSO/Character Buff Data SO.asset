@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 202838f7a2647c64782a51d6c1b8ed81, type: 3}
   m_Name: Character Buff Data SO
   m_EditorClassIdentifier: 
-  addDistance: 0
-  addDamage: 0
-  addSpeed: 0
-  addFrequency: 0
+  addDistance: 10
+  addDamage: 2
+  addSpeed: 1
+  addFrequency: 0.3

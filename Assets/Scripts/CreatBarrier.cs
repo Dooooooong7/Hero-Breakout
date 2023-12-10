@@ -90,19 +90,19 @@ public class CreatBarrier : MonoBehaviour
                 isEnd = true;
                 level++;
             }
-            if (creatCount == 3 && !isBoss &&!isFinalBoss && !isEnd)
+            if (creatCount == 3 && !isBoss &&!isFinalBoss)
             {
                 CreatBuff();
                 creatCount = -1;
                 level++;
             }
-            if (creatCount == 3 && !isBoss && !isFinalBoss && isEnd)
-            {
-                CreatEndLine();
-                isEnd = false;
-                creatCount = -1;
-                level++;
-            }
+            // if (creatCount == 3 && !isBoss && !isFinalBoss && isEnd)
+            // {
+            //     CreatEndLine();
+            //     isEnd = false;
+            //     creatCount = -1;
+            //     level++;
+            // }
             creatCount++;
             _countTime = 0;
         } 
