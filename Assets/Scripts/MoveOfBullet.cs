@@ -1,15 +1,11 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 
 public class MoveOfBullet : MonoBehaviour
 {
-    public float nowSpeed = 1f;
-    public float nowFlyDistance = 10f;
+    public float nowSpeed;
+    public float nowFlyDistance;
     public float initZ;
-    public float nowDamage = 10f;
+    public float nowDamage;
     
     
     void Start()

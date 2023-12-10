@@ -8,15 +8,15 @@ public class RevealBuffData : MonoBehaviour
 
     private void FixedUpdate()
     {
-        text[0].text = BuffText(buffData.addDamage, "伤害加成");
-        text[1].text = BuffText(buffData.addDistance, "距离加成");
-        text[2].text = BuffText(buffData.addFrequency, "频率加成");
-        text[3].text = BuffText(buffData.addSpeed, "弹速加成");
+        text[0].text = BuffText((int)(100 * buffData.addDamage / 10f), "伤害加成");
+        text[1].text = BuffText((int)(100 * buffData.addDistance / 15f), "距离加成");
+        text[2].text = BuffText((int)(100 * buffData.addFrequency) , "频率加成");
+        text[3].text = BuffText((int)(100 * buffData.addSpeed / 8f), "弹速加成");
     }
 
-    private string BuffText(float buffValue, string name)
+    private string BuffText(int buffValue, string name)
     {
         return $"{name}" + '\n' +
-               $"{buffValue}";
+               $"{buffValue}%";
     }
 }
