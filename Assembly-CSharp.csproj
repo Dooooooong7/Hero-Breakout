@@ -46,11 +46,13 @@
      <Compile Include="Assets\InputSystom\PlayerInpotControl.cs" />
      <Compile Include="Assets\Scripts\BloodOfPlayer.cs" />
      <Compile Include="Assets\Scripts\MoveOfCamera.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObject\PlayAudioEventSO.cs" />
      <Compile Include="Assets\Scripts\CreatBarrier.cs" />
      <Compile Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr013_HandPokeAndRay\SetChildSibilingIndex.cs" />
      <Compile Include="Assets\Scripts\PhysicsCheck.cs" />
      <Compile Include="Assets\Scripts\UI相关\UIManager.cs" />
      <Compile Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr008-CameraPreview\CameraPreview.cs" />
+     <Compile Include="Assets\Scripts\Music\AudioManager.cs" />
      <Compile Include="Assets\Scripts\UI相关\PlayerStateBar.cs" />
      <Compile Include="Assets\Scripts\UI相关\StartScene.cs" />
      <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUI.cs" />
@@ -81,7 +83,9 @@
      <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Misc\ResetDemo.cs" />
      <Compile Include="Assets\Scripts\ScriptableObject\CharacterEventSO.cs" />
      <Compile Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr-MainScene\MainSceneSample.cs" />
+     <Compile Include="Assets\Scripts\MoveOfBoss.cs" />
      <Compile Include="Assets\Scripts\DamageeOfStone.cs" />
+     <Compile Include="Assets\Scripts\FireOfBoss.cs" />
      <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
      <Compile Include="Assets\Scripts\DamageOfBarriers.cs" />
      <Compile Include="Assets\Scripts\GetBuff\IncMoveSpeed.cs" />
@@ -92,6 +96,7 @@
      <Compile Include="Assets\Scripts\MoveOfGround.cs" />
      <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUIData.cs" />
      <Compile Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr013_HandPokeAndRay\AttributeRegulation.cs" />
+     <Compile Include="Assets\Scripts\Music\AudioDefinition.cs" />
      <Compile Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr004-NormalController\DragMe.cs" />
      <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUIElement.cs" />
      <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
@@ -100,11 +105,9 @@
      <Compile Include="Assets\Scripts\GetBuff\IncBulletFrequency.cs" />
      <Compile Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr003-VoiceRecognize\UXRVoiceSample.cs" />
      <Compile Include="Assets\Scripts\CreatEnermy.cs" />
+     <Compile Include="Assets\Scripts\LogicOfBoss.cs" />
      <Compile Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr004-NormalController\DropMe.cs" />
      <Compile Include="Assets\Scripts\MoveOfPlayer.cs" />
-     <Compile Include="Assets\Scripts\FireOfBoss.cs" />
-     <Compile Include="Assets\Scripts\MoveOfBoss.cs" />
-     <Compile Include="Assets\Scripts\LogicOfBoss.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\SlimUI\Modern Menu 1\Prefabs\Canvas Templates" />
      <Folder Include="Assets\Model\Sci-Fi Styled Modular Pack" />
@@ -127,7 +130,7 @@
      <Folder Include="Assets\SlimUI\Modern Menu 1\Animations\Camera" />
      <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
      <Folder Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\StaticRes\Prefabs" />
-     <Folder Include="Assets\Free TryPack Game Music\wav" />
+     <Folder Include="Assets\Music\Free TryPack Game Music\wav" />
      <Folder Include="Assets\Model\Sci-Fi Styled Modular Pack\Prefabs\Machines" />
      <Folder Include="Assets\Model\Sci-Fi Styled Modular Pack\Prefabs\Joints" />
      <Folder Include="Assets\ArtAssets\Legacy-Fantasy - High Forest 2.3\Mob\Small Bee\Fly" />
@@ -165,6 +168,7 @@
      <Folder Include="Assets\ArtAssets\Legacy-Fantasy - High Forest 2.3\Mob\Snail" />
      <Folder Include="Assets\ArtAssets\Legacy-Fantasy - High Forest 2.3\Mob\Boar\Idle" />
      <Folder Include="Assets\ArtAssets\generic_char_v0.2\png\blue" />
+     <Folder Include="Assets\Music" />
      <Folder Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts" />
      <Folder Include="Assets\SlimUI\Modern Menu 1\Scripts" />
      <Folder Include="Assets\ArtAssets\Legacy-Fantasy - High Forest 2.3\Mob\Small Bee" />
@@ -183,7 +187,7 @@
      <Folder Include="Assets\Model\Sci-Fi Styled Modular Pack\Prefabs\Walls\Simple" />
      <Folder Include="Assets\Model\Sci-Fi Styled Modular Pack\Prefabs\Floors" />
      <Folder Include="Assets\TextMesh Pro" />
-     <None Include="Assets\Free TryPack Game Music\readme(EN) .txt" />
+     <None Include="Assets\Music\Free TryPack Game Music\readme(EN) .txt" />
      <Folder Include="Assets\Model\Sci-Fi Styled Modular Pack\Prefabs\Decorative elements\Column" />
      <Folder Include="Assets\ExampleAssets\Models" />
      <Folder Include="Assets\Mini Legion Rock Golem PBR HP Polyart\Meshes" />
@@ -316,9 +320,10 @@
      <Folder Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\StaticRes\Modules" />
      <Folder Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Resources\Materials" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
+     <Folder Include="Assets\Scripts\Music" />
      <Folder Include="Assets\Samples\Rokid UXR SDK\2.3.10\UXR Sample\Scripts\uxr016-UIOverlay" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
-     <Folder Include="Assets\Free TryPack Game Music" />
+     <Folder Include="Assets\Music\Free TryPack Game Music" />
      <Folder Include="Assets\Model\Sci-Fi Styled Modular Pack\Prefabs\Decorative elements\Tables" />
      <Folder Include="Assets\Model\Sci-Fi Styled Modular Pack\Prefabs\Windows" />
      <Reference Include="UnityEngine">

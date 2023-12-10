@@ -79,6 +79,7 @@ GameObject:
   - component: {fileID: 5281985370024666275}
   - component: {fileID: 6171419565661816516}
   - component: {fileID: 7656224514177564055}
+  - component: {fileID: -7357202562764265351}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Untagged
@@ -214,6 +215,22 @@ MonoBehaviour:
   fireTimer: 0.2
   fireFrequency: 1
   throwForce: 10
+--- !u!114 &-7357202562764265351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067925524328404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55b75bf50230513499f1ae47c164d31e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playAudioEventSO: {fileID: 11400000, guid: a38af5ea7953cba4a972750c50e8f572, type: 2}
+  clip: {fileID: 8300000, guid: 6f7852c81e12976489032665e1b6314d, type: 3}
+  playOnEnable: 0
+  playOnStart: 0
 --- !u!1 &1088256926929212
 GameObject:
   m_ObjectHideFlags: 0

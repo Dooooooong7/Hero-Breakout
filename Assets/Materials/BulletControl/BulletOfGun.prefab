@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5857165704211182477}
   - component: {fileID: -5095707800809548367}
   - component: {fileID: 7181962168471312316}
+  - component: {fileID: 7921292162922446750}
   m_Layer: 0
   m_Name: BulletOfGun
   m_TagString: Untagged
@@ -132,3 +133,19 @@ MonoBehaviour:
   nowFlyDistance: 15
   initZ: 0
   nowDamage: 10
+--- !u!114 &7921292162922446750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3531081240263140626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55b75bf50230513499f1ae47c164d31e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playAudioEventSO: {fileID: 11400000, guid: b76398fb36ea16a43bf0066dee4c952f, type: 2}
+  clip: {fileID: 8300000, guid: 9f75fe2e2dafa8a42b7c65c013c50fce, type: 3}
+  playOnEnable: 1
+  playOnStart: 0

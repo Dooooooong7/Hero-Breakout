@@ -45,8 +45,9 @@ public class LogicOfEnemy : MonoBehaviour
         anim.SetBool("dead",isDead);
         if (currentBlood <= 0)
         {
-            // StartCoroutine(OnDead());
-            GetComponent<MoveOfEnermy>().SelfDestroy(1);
+            
+            StartCoroutine(OnDead());
+            
         }
     }
 
@@ -63,6 +64,7 @@ public class LogicOfEnemy : MonoBehaviour
                  pBlood.countTime = 0;
             }
             Debug.Log("碰到敌人,当前血量为" + pBlood.currentBlood);
+            GetComponent<AudioDefinition>().PlayAudio();
             GetComponent<MoveOfEnermy>().SelfDestroy(1);
             
         }
@@ -86,6 +88,11 @@ public class LogicOfEnemy : MonoBehaviour
         yield return new WaitForSeconds(1.0f);
         isHurt = false;
     }
-    
-    
+
+    private IEnumerator OnDead()
+    {
+        GetComponent<AudioDefinition>().PlayAudio();
+        yield return GetComponent<AudioDefinition>().clip.length;
+        GetComponent<MoveOfEnermy>().SelfDestroy(1);
+    }
 }

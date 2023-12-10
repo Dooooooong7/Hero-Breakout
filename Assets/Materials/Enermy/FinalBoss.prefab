@@ -302,6 +302,7 @@ GameObject:
   - component: {fileID: 2844000890311720812}
   - component: {fileID: -3939977037552868152}
   - component: {fileID: -3425705747514660472}
+  - component: {fileID: -6688084691280938232}
   m_Layer: 0
   m_Name: FinalBoss
   m_TagString: Untagged
@@ -410,7 +411,7 @@ MonoBehaviour:
   startFire: 0
   stopTime: 10
   isFiring: 0
-  logicOfEnemy: {fileID: 0}
+  logicOfBoss: {fileID: 0}
   moveOfBoss: {fileID: 0}
 --- !u!114 &-3939977037552868152
 MonoBehaviour:
@@ -453,6 +454,22 @@ MonoBehaviour:
   isDead: 0
   nowTime: 0
   canBeHurt: 0
+--- !u!114 &-6688084691280938232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438169871030806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55b75bf50230513499f1ae47c164d31e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playAudioEventSO: {fileID: 11400000, guid: a38af5ea7953cba4a972750c50e8f572, type: 2}
+  clip: {fileID: 8300000, guid: 6f7852c81e12976489032665e1b6314d, type: 3}
+  playOnEnable: 0
+  playOnStart: 0
 --- !u!1 &1457912190622302
 GameObject:
   m_ObjectHideFlags: 0

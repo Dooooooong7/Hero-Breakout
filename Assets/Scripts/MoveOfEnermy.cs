@@ -35,7 +35,7 @@ public class MoveOfEnermy : MonoBehaviour
         if (isKilled == 1)
         {
             Debug.Log(1);
-            int i = Random.Range(0, 3);
+            var i = Random.Range(0, 3);
             var buff = GameObject.Find("Player").GetComponent<FireOfPlayer>();
             switch (i)
             {
@@ -49,6 +49,7 @@ public class MoveOfEnermy : MonoBehaviour
                       break;
             }
         }
-        Destroy(this.gameObject);
+        
+        Destroy(gameObject);
     }
 }

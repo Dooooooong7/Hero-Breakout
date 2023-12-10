@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44402242, g: 0.49316543, b: 0.5722324, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -880,6 +880,7 @@ GameObject:
   - component: {fileID: 870435983}
   - component: {fileID: 870435982}
   - component: {fileID: 870435985}
+  - component: {fileID: 870435986}
   m_Layer: 5
   m_Name: Start
   m_TagString: Untagged
@@ -1015,6 +1016,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buffData: {fileID: 11400000, guid: a8e266264ffc7264d81c33ba0a86de67, type: 2}
+--- !u!114 &870435986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870435980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55b75bf50230513499f1ae47c164d31e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playAudioEventSO: {fileID: 11400000, guid: b76398fb36ea16a43bf0066dee4c952f, type: 2}
+  clip: {fileID: 8300000, guid: 3c826a1165fbdb34eabf76efb43def4f, type: 3}
+  playOnEnable: 0
+  playOnStart: 0
 --- !u!1 &881086272
 GameObject:
   m_ObjectHideFlags: 0
