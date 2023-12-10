@@ -453,7 +453,7 @@ MonoBehaviour:
   isHurt: 0
   isDead: 0
   nowTime: 0
-  canBeHurt: 0
+  canBeHurt: 1
 --- !u!114 &-6688084691280938232
 MonoBehaviour:
   m_ObjectHideFlags: 0

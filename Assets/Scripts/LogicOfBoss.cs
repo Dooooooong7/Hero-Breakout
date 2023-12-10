@@ -72,12 +72,13 @@ public class LogicOfBoss : MonoBehaviour
             currentBlood -= GameObject.Find("BulletOfGun(Clone)").GetComponent<MoveOfBullet>().nowDamage;
             StartCoroutine(OnHurt());
             GameObject.Find("BulletOfGun(Clone)").GetComponent<MoveOfBullet>().SelfDestroy();
+            float healthPercentage = Mathf.Clamp01(currentBlood/ maxblood);
+            float newWidth = healthPercentage;
+            Vector3 scale = capsuleTransform.localScale;
+            scale.y = capsuleTransform.localScale.y*newWidth;
+            capsuleTransform.localScale = scale;
         }
-        float healthPercentage = Mathf.Clamp01(currentBlood/ maxblood);
-        float newWidth = healthPercentage;
-        Vector3 scale = capsuleTransform.localScale;
-        scale.y = capsuleTransform.localScale.y*newWidth;
-        capsuleTransform.localScale = scale;
+        
     }
     
     private IEnumerator OnHurt()

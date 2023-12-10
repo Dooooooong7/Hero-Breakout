@@ -45,9 +45,7 @@ public class LogicOfEnemy : MonoBehaviour
         anim.SetBool("dead",isDead);
         if (currentBlood <= 0)
         {
-            
             StartCoroutine(OnDead());
-            
         }
     }
 
